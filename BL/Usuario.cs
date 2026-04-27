@@ -17,5 +17,7 @@ namespace BL
         }
 
         public static void Master() { }
+
+        public static void Carlos() { }
     }
 }
