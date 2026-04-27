@@ -1,7 +1,13 @@
+using DL;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<JguevaraProgramacionNcapasFebreroContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("JGuevaraConnecionString")));
 
 var app = builder.Build();
 
