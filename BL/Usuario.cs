@@ -15,5 +15,7 @@ namespace BL
         {
             _context = context;
         }
+
+        public static void Carlos() { }
     }
 }
