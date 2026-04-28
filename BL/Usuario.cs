@@ -16,7 +16,6 @@ namespace BL
             _context = context;
         }
 
-        public void Delete()  
         public static void Master() { }
 
         public static void Carlos() { }
@@ -32,5 +31,7 @@ namespace BL
         }
 
         public void Jeremy() { }
+        public void Jeremy2() { }
+        public void Jeremy3() { }
     }
 }
