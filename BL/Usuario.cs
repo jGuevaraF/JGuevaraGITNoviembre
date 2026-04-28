@@ -1,4 +1,5 @@
 ﻿using DL;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +23,7 @@ namespace BL
 
         public static void HolaMundo()
         {
-
+              
         }
 
         public void Delete()
@@ -33,5 +34,6 @@ namespace BL
         public void Jeremy() { }
 
         public void NoAviso() { }
+
     }
 }
