@@ -19,5 +19,10 @@ namespace BL
         public static void Master() { }
 
         public static void Carlos() { }
+
+        public static void HolaMundo()
+        {
+
+        }
     }
 }
