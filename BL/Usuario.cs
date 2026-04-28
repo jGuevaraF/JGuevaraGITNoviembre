@@ -1,4 +1,5 @@
 ﻿using DL;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,5 +23,7 @@ namespace BL
         {
               
         }
+
+        public static void NoAviso() { }
     }
 }
