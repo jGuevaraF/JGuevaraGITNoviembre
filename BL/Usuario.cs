@@ -33,5 +33,9 @@ namespace BL
         public void Jeremy() { }
         public void Jeremy2() { }
         public void Jeremy3() { }
+
+        public void Carlos1() { }
+        public void Carlos2() { }
+        public void Carlos3() { }
     }
 }
