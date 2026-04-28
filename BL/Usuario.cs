@@ -20,5 +20,7 @@ namespace BL
         {
 
         }
+
+        public void Jeremy() { }
     }
 }
