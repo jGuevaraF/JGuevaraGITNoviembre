@@ -24,5 +24,12 @@ namespace BL
         {
 
         }
+
+        public void Delete()
+        {
+
+        }
+
+        public void Jeremy() { }
     }
 }
