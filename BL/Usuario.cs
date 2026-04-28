@@ -31,5 +31,7 @@ namespace BL
         }
 
         public void Jeremy() { }
+
+        public void NoAviso() { }
     }
 }
