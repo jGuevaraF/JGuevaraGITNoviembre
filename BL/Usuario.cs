@@ -15,5 +15,10 @@ namespace BL
         {
             _context = context;
         }
+
+        public void Delete()
+        {
+
+        }
     }
 }
